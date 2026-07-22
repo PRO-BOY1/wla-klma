@@ -36,7 +36,7 @@ export function SetupScreen({ cards, initialSettings, onStart }: SetupScreenProp
         className="text-center"
       >
         <h1 className="font-display font-black text-4xl sm:text-5xl bg-gradient-to-l from-team-red via-gold to-team-blue bg-clip-text text-transparent">
-          ساحة الكلمات
+          ولا كلمة
         </h1>
         <p className="text-mist mt-2 font-body">مثّل، خمّن، واكسب الجولة لفريقك</p>
       </motion.div>
