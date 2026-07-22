@@ -1,0 +1,52 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html,
+body {
+  height: 100%;
+}
+
+body {
+  background: radial-gradient(ellipse 120% 80% at 50% -10%, #161B26 0%, #0B0E14 55%, #07090D 100%);
+  color: #F5F7FA;
+  overscroll-behavior: none;
+}
+
+::selection {
+  background: rgba(255, 201, 77, 0.35);
+}
+
+/* بطاقة زجاجية أساسية تُستخدم في كل الشاشات */
+.glass {
+  background: rgba(255, 255, 255, 0.045);
+  border: 1px solid rgba(255, 255, 255, 0.09);
+  backdrop-filter: blur(18px);
+  -webkit-backdrop-filter: blur(18px);
+}
+
+.glass-strong {
+  background: rgba(17, 21, 31, 0.72);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(24px);
+  -webkit-backdrop-filter: blur(24px);
+}
+
+/* شريط تمرير خفيف يتناسب مع الثيم الداكن */
+::-webkit-scrollbar {
+  width: 8px;
+}
+::-webkit-scrollbar-thumb {
+  background: rgba(255, 255, 255, 0.15);
+  border-radius: 999px;
+}
+
+.no-tap-highlight {
+  -webkit-tap-highlight-color: transparent;
+}
+
+@media (max-width: 380px) {
+  html {
+    font-size: 15px;
+  }
+}
