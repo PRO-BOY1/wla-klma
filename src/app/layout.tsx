@@ -19,6 +19,9 @@ const tajawal = Tajawal({
 export const metadata: Metadata = {
   title: "ساحة الكلمات | لعبة تمثيل وتخمين",
   description: "لعبة تمثيل وتخمين جماعية بين فريقين، احترافية وجاهزة للعب من الجوال أو الكمبيوتر.",
+  icons: {
+    icon: "/favicon.svg",
+  },
 };
 
 export const viewport: Viewport = {
